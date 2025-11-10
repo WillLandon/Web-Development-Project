@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do | College Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="back-link">← Back to Home</a>
+        <h1>My To-Do List</h1>
+    </header>
+
+    <main>
+        <section class="todo-section">
+            <h2 class="section-title">To-Do Dashboard</h2>
+
+            <div class="input-group">
+                <label class="input-label" for="todo-input">New Task:</label>
+                <input
+                    type="text"
+                    class="text-input"
+                    id="todo-input"
+                    name="todo-input"
+                    placeholder="Enter your task here..."
+                />
+            </div>
+
+            <button class="btn" id="add-task"> Add Task</button>
+
+            <div class="todo-list">
+                <h3>Tasks</h3>
+                <ul id="tasks-container">
+                    <li class="empty-tasks">No tasks yet. Add your first task above!</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 College Planner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
