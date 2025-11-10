@@ -10,7 +10,7 @@ body, h1, h2, h3, p {
 /* Body styles */
 body {
     background-color: #f5f5dc; /* Cream color */
-    color: #001f3f; /* Navy blue */
+    color: hsl(210, 100%, 12%); /* Navy blue */
 }
 
 /* Header styles */
@@ -60,4 +60,53 @@ button {
 
 button:hover {
     background-color: #003366; /* Darker navy blue */
+}
+
+
+/* Notes Section Styles */
+.notes-section {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.notes-section h2 {
+    color: #182848;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f5f5dc;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #0e1f3f;
+}
+
+.text-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #f5f5dc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.text-input:focus {
+    border-color: #4b6cb7;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(75, 108, 183, 0.2);
+}
+
+.textarea {
+    resize: vertical;
+    min-height: 150px;
 }

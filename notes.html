@@ -6,30 +6,24 @@
     <title>Notes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<header>
+    <a href="index.html" class="home-link">← Back to Home
+</header>
 <body>
-    <header>
+    <section class="notes-section">
+        <h2 class="section-title">My Notes</h2>
+        <div class="input-group">
+            <label class="input-label" for="note-input">Add New Note:</label>
+            <textarea class="text-input textarea" id="note-input" name="note-input" placeholder="You got this..."></textarea>
+        </div>
+        <button class="btn" id="save-note">Save Note</button>
         
-    </header>
-
-    <main>
-        <section id="features">
-            <h2>Features</h2>
-            <ul>
-                <li>Class Schedule Management</li>
-                <li>Assignment Tracker</li>
-                <li>Exam Countdown</li>
-                <li>Goal Setting</li>
-            </ul>
-        </section>
-
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We are dedicated to helping college students stay organized and succeed in their academic journey.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: support@collegeplanner.com</p>
+        <div class="notes-list">
+            <h3>Saved Notes</h3>
+            <div id="notes-container">
+                <div class="empty-notes">No notes yet. Add your first note above!</div>
+            </div>
+        </div>
         </section>
     </main>
 
