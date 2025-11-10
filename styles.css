@@ -1,0 +1,63 @@
+/* main.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #f5f5dc; /* Cream color */
+    color: #001f3f; /* Navy blue */
+}
+
+/* Header styles */
+header {
+    background-color: #001f3f; /* Navy blue */
+    color: #f5f5dc; /* Cream color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #f5f5dc; /* Cream color */
+    padding: 10px;
+}
+
+nav a {
+    color: #001f3f; /* Navy blue */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #001f3f; /* Navy blue */
+    color: #f5f5dc; /* Cream color */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Button styles */
+button {
+    background-color: #001f3f; /* Navy blue */
+    color: #f5f5dc; /* Cream color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366; /* Darker navy blue */
+}
