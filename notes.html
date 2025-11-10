@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes | College Planner</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<header>
-    <a href="index.html" class="home-link">← Back to Home
-</header>
 <body>
-    <section class="notes-section">
-        <h2 class="section-title">My Notes</h2>
-        <div class="input-group">
-            <label class="input-label" for="note-input">Add New Note:</label>
-            <textarea class="text-input textarea" id="note-input" name="note-input" placeholder="You got this..."></textarea>
-        </div>
-        <button class="btn" id="save-note">Save Note</button>
-        
-        <div class="notes-list">
-            <h3>Saved Notes</h3>
-            <div id="notes-container">
-                <div class="empty-notes">No notes yet. Add your first note above!</div>
-            </div>
-        </div>
-        </section>
-    </main>
+  <header>
+    <a href="index.html" class="back-link">← Back to Home</a>
+    <h1>My Notes</h1>
+  </header>
 
-    <footer>
-        <p>&copy; 2023 College Planner. All rights reserved.</p>
-    </footer>
+  <main>
+    <section class="notes-section">
+      <h2 class="section-title">Notes Dashboard</h2>
+
+      <div class="input-group">
+        <label class="input-label" for="note-input">Start Writing:</label>
+        <textarea
+          class="text-input textarea large-textarea"
+          id="note-input"
+          name="note-input"
+          placeholder="Begin your notes here..."
+        ></textarea>
+      </div>
+
+      <button class="btn" id="save-note"> Save Note</button>
+
+      <div class="notes-list">
+        <h3>Saved Notes</h3>
+        <div id="notes-container">
+          <div class="empty-notes">No notes yet. Add your first note above!</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 College Planner. All rights reserved.</p>
+  </footer>
 </body>
-</html></section>
+</html>
