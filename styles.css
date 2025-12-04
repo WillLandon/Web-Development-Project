@@ -17,11 +17,14 @@
   }
 
   nav {
-    background-color: #87b5e2;
-    padding: 10px 20px;
+    background-color: #002f5e;
+    padding: 15px 30px;
     text-align: center;
-    font-size: large;
-    word-spacing: 10px;
+    font-size: 1.2rem;
+    word-spacing: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 10px;
   }
   
   header {
