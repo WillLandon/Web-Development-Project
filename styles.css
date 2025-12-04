@@ -172,18 +172,91 @@
   }
 
   /* Responsive Design */
-  @media (max-width: 768px) {
+  @media (max-width: 480px) {
     .notes-section {
-      width: 100%;
       padding: 1rem;
+      border-radius: 8px;
     }
-  
+    
     header h1 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
-  
+    
+    .textarea {
+      min-height: 300px; 
+    }
+    
     .btn {
-      width: 100%;
-      padding: 12px 0;
+      width: 100%; 
+      padding: 14px 0;
+      font-size: 1.1rem; 
+    }
+    
+    .input-label {
+      font-size: 0.95rem;
+    }
+    
+    .notes-section h2 {
+      font-size: 1.4rem;
+    }
+    
+    nav {
+      font-size: small;
+      word-spacing: 3px;
+      padding: 8px 10px;
+    }
+    
+    main {
+      padding: 0.75rem;
+    }
+    
+    .note-card {
+      padding: 0.75rem;
+    }
+    
+    .text-input {
+      font-size: 14px;
+      padding: 8px;
     }
   }
+    
+    header h1 {
+      font-size: 1.3rem;
+    }
+    
+    .textarea {
+      min-height: 300px; 
+    }
+    
+    .btn {
+      width: 100%;
+      padding: 14px 0;
+      font-size: 1.1rem; 
+    }
+    
+    .input-label {
+      font-size: 0.95rem;
+    }
+    
+    .notes-section h2 {
+      font-size: 1.4rem;
+    }
+    
+    nav {
+      font-size: small;
+      word-spacing: 3px;
+      padding: 8px 10px;
+    }
+    
+    main {
+      padding: 0.75rem;
+    }
+    
+    .note-card {
+      padding: 0.75rem;
+    }
+    
+    .text-input {
+      font-size: 14px;
+      padding: 8px;
+    }
