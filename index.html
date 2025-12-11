@@ -9,40 +9,91 @@
 <body>
     <header>
         <h1>Welcome to Your College Planner</h1>
-        <nav>
-            <ul style="list-style-type: none;">
-                <li><a href="to-do.html">To-Do</a></li>
-                <li><a href="notes.html">Notes</a></li>
-                <li><a href="studytips.html">Study Tips</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-            </ul>
-        </nav>
     </header>
 
+    <nav>
+        <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <li><a href="to-do.html" style="color: #f5f5dc; text-decoration: none; font-weight: 500;">To-Do</a></li>
+            <li><a href="notes.html" style="color: #f5f5dc; text-decoration: none; font-weight: 500;">Notes</a></li>
+            <li><a href="studytips.html" style="color: #f5f5dc; text-decoration: none; font-weight: 500;">Study Tips</a></li>
+            <li><a href="schedule.html" style="color: #f5f5dc; text-decoration: none; font-weight: 500;">Schedule</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <section id="features">
-            <h2>Features</h2>
-            <ul>
-                <li>Class Schedule Management</li>
-                <li>Assignment Tracker</li>
-                <li>Exam Countdown</li>
-                <li>Goal Setting</li>
-            </ul>
-        </section>
+        <section class="notes-section">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h2>Features</h2>
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                        <li>Class Schedule Management</li>
+                        <li>Assignment Tracker</li>
+                        <li>Exam Countdown</li>
+                        <li>Goal Setting</li>
+                    </ul>
+                </div>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We are dedicated to helping college students stay organized and succeed in their academic journey.</p>
-        </section>
+                <div class="feature-card">
+                    <h2>About Us</h2>
+                    <p>We are dedicated to helping college students stay organized and succeed in their academic journey.</p>
+                </div>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: support@collegeplanner.com</p>
+                <div class="feature-card">
+                    <h2>Contact Us</h2>
+                    <p><strong>Email:</strong> support@collegeplanner.com</p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 College Planner. All rights reserved.</p>
     </footer>
+
+    <style>
+        .feature-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .feature-card {
+            background-color: #f9f9f3;
+            border-left: 5px solid #001f3f;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .feature-card h2 {
+            color: #001f3f;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            border-bottom: 2px solid #f5f5dc;
+            padding-bottom: 0.5rem;
+        }
+
+        .feature-card p {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .feature-card ul {
+            line-height: 1.8;
+            color: #333;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+
+            nav ul {
+                gap: 15px;
+            }
+        }
+    </style>
 </body>
-</html></section>
+</html>
