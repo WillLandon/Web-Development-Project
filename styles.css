@@ -292,3 +292,7 @@
       font-size: 14px;
       padding: 8px;
     }
+
+.section-title {
+  text-align: center;
+}
